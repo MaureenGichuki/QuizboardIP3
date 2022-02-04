@@ -1,3 +1,45 @@
 body{
     font:medium;
 }
+.navbar{
+    display: flex;
+    float: right;
+}
+.logo{
+    font-size: 25px;
+    padding-top: 10px;
+    float: left;
+    font-style: italic
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    padding-right: 30px;
+}
+.sub1{
+    border-radius: 5px;
+    background-color: #ff1493;
+    height: 50px;
+    color: white;
+    border-style:hidden;
+}
+.sub2{
+    border-radius: 5px;
+    background-color: #ff1493;
+    height: 40px;
+    color: white;
+    border-style:hidden;
+    margin: 10px;
+    width:200px;
+}
+.p1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 150px;
+}
+.btns{
+    display: block;
+    padding-left: 550px;
+}
