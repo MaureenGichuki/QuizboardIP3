@@ -16,8 +16,12 @@ body{
 }
 .navbar li{
     list-style: none;
-    padding-right: 30px;
+    padding-right: 50px;
 }
+/* .img2{
+    background-image:url(lo.jpg);
+    background-size: 100%;
+    padding-bottom: 150px; */
 .sub1{
     border-radius: 5px;
     background-color: #ff1493;
@@ -37,9 +41,35 @@ body{
 .p1{
     font-size: 70px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
+    float: left;
+    width: 100%;
+    /* color: white; */
+    /* border-style: solid; */
+    /* border-color: violet; */
 }
 .btns{
     display: block;
     padding-left: 550px;
+    /* border-style: solid;
+    border-color: violet; */
+    /* height: 400px; */
+}
+.edittext1{
+    font-size: 20px;
+    text-align: center;
+}
+.q1{
+    padding: 50px;
+    margin: 30px;
+    box-shadow: thistle 0px 5px 5px 5px;
+    height: 200px;
+    border-radius: 20px;
+}
+.qi li{
+    list-style: none;
+    justify-content: space-around;
+}
+.query{
+    font-size: 30px;
 }
