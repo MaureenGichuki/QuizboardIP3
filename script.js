@@ -1,5 +1,5 @@
 
-    document.getElementById("form1").onsubmit=function() {
+    document.getElementById("question").onsubmit=function() {
            feat = parseInt(document.querySelector('input[name = "feat"]:checked').value);
            cook = parseInt(document.querySelector('input[name = "cook"]:checked').value);
            dat = parseInt(document.querySelector('input[name = "dat"]:checked').value);
@@ -14,6 +14,17 @@
     
            result = feat + cook + dat + lang + code + orig + pop + exp + err + comp;
     
-        document.getElementById("grade").innerHTML = result;
+        document.getElementById("score").innerHTML = result;
+
+        if(result==0){result2="Try Again"};
+        if(result==25){result2="You can do better"};
+        if(result==50){result2="You achieved the passmark!"};
+        if(result=80){result2="Good Job!"};
+        if(result>80){result2="Excellent work!"};
+
+        document.getElementById("score2").innerHTML = result2;
+
+        return false;
     }
     
+ 
