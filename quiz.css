@@ -1,9 +1,7 @@
-body{
-    font:medium;
-}
 .navbar{
     display: flex;
     float: right;
+    padding: 20px;
 }
 .logo{
     font-size: 25px;
@@ -11,6 +9,7 @@ body{
     float: left;
     font-style: italic;
     color:white;
+    padding: 20px;
 }
 .navbar ul{
     display: flex;
@@ -20,17 +19,19 @@ body{
     padding-right: 50px;
     color: white;
 }
-.img2{
-    background-color: #ff1493;
+#img2{
+    background-image: url(cul.jpg);
+    background-size: 100%;
+    padding-top: 20px;
 }
-.sub1{
+#sub1{
     border-radius: 5px;
     background-color: turquoise;
     height: 50px;
     color: white;
     border-style:hidden;
 }
-.sub2{
+#sub2{
     border-radius: 5px;
     background-color:turquoise ;
     height: 40px;
@@ -39,10 +40,10 @@ body{
     margin: 10px;
     width:200px;
 }
-.p1{
+#p1{
     font-size: 70px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 10px;
     float: left;
     width: 100%;
     color: white;
@@ -50,29 +51,21 @@ body{
     /* border-color: violet; */
     padding-bottom: 100px;
 }
-.btns{
+#btns{
     display: block;
-    padding-left: 550px;
+    padding-left: 500px;
     /* border-style: solid;
     border-color: violet; */
     /* height: 400px; */
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
-.edittext1{
-    font-size: 20px;
-    text-align: center;
-}
-.q1{
-    padding: 50px;
-    margin: 30px;
-    box-shadow: thistle 0px 5px 5px 5px;
+#q1{
+    box-shadow: #9afeff 0px 5px 5px 5px;
+    border-radius: 10px;
     height: 200px;
-    border-radius: 20px;
+    width:500px;
+    justify-content: space-evenly;
 }
-.qi li{
-    list-style: none;
-    justify-content: space-around;
-}
-.query{
-    font-size: 30px;
+.edittext{
+    font-size: 18px;
 }
