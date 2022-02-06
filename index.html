@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
     <div class="logo">Java Quiz Board</div>
     <div class="navbar">
         <ul>
@@ -20,76 +21,86 @@
     <div id="img2">
     <div id="p1">Test Your JavaScript<br> skills Today</div>
     <div id="btns">
-    <div id="edittext1">Personal Information</div>
     <button id="sub2">Enter First Name</button><br>
     <button id="sub2">Enter Middle Name</button><br>
     <button id="sub2">Enter Last Name</button><br>
     <button id="sub2">Start Test</button><br>
 </div>
+</div>
 </head>
 <body>
 <form id="question">
     <script src ="script.js"></script>
-<h2>Which of the following is true about the features of Javascript?</h2>
+    <div id="q1">
+<h2 class="edittext">Which of the following is true about the features of Javascript?</h2>
 <input type="radio" name="feat" value="0"/>Javascript is complementary to and integrated with HTML.<br>
 <input type="radio" name="feat" value="0"/>JavaScript is open and cross-platform.<br>
 <input type="radio" name="feat" value="10"/>Both of the above.<br>
 <input type="radio" name="feat" value="0"/>All of the above.<br>
-
-<h2>Which of the following is the correct syntax to create a cookiet using javascript?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">Which of the following is the correct syntax to create a cookiet using javascript?</h2>
 <input type="radio" name="cook" value="10"/>document.cookie = 'key1 = value1; key2 = value2; expires = date';<br>
 <input type="radio" name="cook" value="0"/>browser.cookie = 'key1 = value1; key2 = value2; expires = date';<br>
 <input type="radio" name="cook" value="0"/>window.cookie = 'key1 = value1; key2 = value2; expires = date';<br>
 <input type="radio" name="cook" value="0"/>navigator.cookie = 'key1 = value1; key2 = value2; expires = date';<br>
-
-<h2>Which is not a valid data type in javascript?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">Which is not a valid data type in javascript?</h2>
    <input type="radio" name="dat" value="0"/>Undefined<br>
    <input type="radio" name="dat" value="0"/>Boolean<br>
    <input type="radio" name="dat" value="10"/>Float<br>
    <input type="radio" name="dat" value="0"/>Number<br>
-
-<h2>Which type of language is Javascript?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">Which type of language is Javascript?</h2>
    <input type="radio" name="lang" value="0"/>Programming<br>
    <input type="radio" name="lang" value="10"/>Scripting<br>
    <input type="radio" name="lang" value="0"/>Markup<br>
    <input type="radio" name="lang" value="0"/>None of the above<br>
-
-<h2>By which javascript code is used</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">By which javascript code is used</h2>
    <input type="radio" name="code" value="0"/>Classes<br>
    <input type="radio" name="code" value="10"/>Methods/functions<br>
    <input type="radio" name="code" value="0"/>RMI<br>
    <input type="radio" name="code" value="0"/>Events<br>
-
-<h2>The original name of Javascript is?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">The original name of Javascript is?</h2>
    <input type="radio" name="orig" value="10"/>Mocha<br>
    <input type="radio" name="orig" value="0"/>Livescript<br>
    <input type="radio" name="orig" value="0"/>Escript<br>
    <input type="radio" name="orig" value="0"/>Javascript<br>
-
-<h2>What are the type of pop up boxes available in javascript?</h2>
+<div>
+   <div id="q1">
+<h2 class="edittext">What are the type of pop up boxes available in javascript?</h2>
    <input type="radio" name="pop" value="0"/>Prompt<br>
    <input type="radio" name="pop" value="0"/>Alert<br>
    <input type="radio" name="pop" value="0"/>Confirm<br>
    <input type="radio" name="pop" value="10"/>All of the Above<br>
-
-<h2>A function definition expression is known as?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">A function definition expression is known as?</h2>
    <input type="radio" name="exp" value="0"/>Function calls<br>
    <input type="radio" name="exp" value="0"/>Function definition<br>
    <input type="radio" name="exp" value="0"/>Function calling<br>
    <input type="radio" name="exp" value="10"/>Function literal<br>
-
-<h2>Types of errors in Javascript?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">Types of errors in Javascript?</h2>
    <input type="radio" name="err" value="10"/>Run time errors<br>
    <input type="radio" name="err" value="0"/>Compile time error<br>
    <input type="radio" name="err" value="0"/>Logical error<br>
    <input type="radio" name="err" value="0"/>None of the above<br>
-
-<h2>Functional components in Javascript are?</h2>
+</div>
+<div id="q1">
+<h2 class="edittext">Functional components in Javascript are?</h2>
    <input type="radio" name="comp" value="0"/>Fixed-class functions<br>
    <input type="radio" name="comp" value="10"/>First-class functions<br>
    <input type="radio" name="comp" value="0"/>Both A and B<br>
    <input type="radio" name="comp" value="0"/>None of the above<br>
-
+   </div>
 <button type="submit" value="Submit">Submit</button>
 <p>Your grade is: <span id="score">__</span></p>
 <p id="score2"></p>
