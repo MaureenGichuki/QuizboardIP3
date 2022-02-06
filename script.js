@@ -19,7 +19,7 @@
         if(result==0){result2="Try Again"};
         if(result==25){result2="You can do better"};
         if(result==50){result2="You achieved the passmark!"};
-        if(result=80){result2="Good Job!"};
+        if(result==80){result2="Good Job!"};
         if(result>80){result2="Excellent work!"};
 
         document.getElementById("score2").innerHTML = result2;
