@@ -1,7 +1,8 @@
-document.getElementById("Questions").onsubmit=function(){
+document.getElementById("questions").onsubmit= function(){
+
     feat = parseInt(document.querySelector('input[name="feat"]:checked').value);
     cook = parseInt(document.querySelector('input[name="cook"]:checked').value);
-    data = parseInt(document.querySelector('input[name="data"]:checked').value);
+    dat = parseInt(document.querySelector('input[name="data"]:checked').value);
     lang = parseInt(document.querySelector('input[name="lang"]:checked').value);
     code = parseInt(document.querySelector('input[name="code"]:checked').value);
     orig = parseInt(document.querySelector('input[name="orig"]:checked').value);
@@ -9,8 +10,6 @@ document.getElementById("Questions").onsubmit=function(){
     exp = parseInt(document.querySelector('input[name="exp"]:checked').value);
     err = parseInt(document.querySelector('input[name="err"]:checked').value);
     comp = parseInt(document.querySelector('input[name="comp"]:checked').value);
-
-    result = feat + cook + data +lang + code + orig + pop + exp + err + comp ;
-
-    document.getElementById("Score").innerHTML=result;
+    result = feat + cook + data + lang + code + orig + pop + exp + err + comp ;
+    document.getElementById("score").innerHTML = result;
 }
