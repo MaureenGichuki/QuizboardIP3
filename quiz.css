@@ -9,7 +9,8 @@ body{
     font-size: 25px;
     padding-top: 10px;
     float: left;
-    font-style: italic
+    font-style: italic;
+    color:white;
 }
 .navbar ul{
     display: flex;
@@ -17,21 +18,21 @@ body{
 .navbar li{
     list-style: none;
     padding-right: 50px;
+    color: white;
 }
-/* .img2{
-    background-image:url(lo.jpg);
-    background-size: 100%;
-    padding-bottom: 150px; */
+.img2{
+    background-color: #ff1493;
+}
 .sub1{
     border-radius: 5px;
-    background-color: #ff1493;
+    background-color: turquoise;
     height: 50px;
     color: white;
     border-style:hidden;
 }
 .sub2{
     border-radius: 5px;
-    background-color: #ff1493;
+    background-color:turquoise ;
     height: 40px;
     color: white;
     border-style:hidden;
@@ -44,9 +45,13 @@ body{
     padding-top: 80px;
     float: left;
     width: 100%;
-    /* color: white; */
+    color: white;
     /* border-style: solid; */
     /* border-color: violet; */
+    padding-bottom: 100px;
+}
+/* .toon{
+    display:flex; */
 }
 .btns{
     display: block;
@@ -54,6 +59,7 @@ body{
     /* border-style: solid;
     border-color: violet; */
     /* height: 400px; */
+    padding-bottom: 150px;
 }
 .edittext1{
     font-size: 20px;
