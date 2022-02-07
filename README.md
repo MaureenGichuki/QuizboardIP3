@@ -41,3 +41,5 @@ Email - [businesschapter@gmail.com]
 
 ![Quiz Board](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1mEnxRNkP3fzLH4ykA3dysIxYNBkEG5ROg&usqp=CAU)
 # Java Quiz Board
+# Figma design 
+https://www.figma.com/file/o4Wt8v3IoTTqRDNZpW8xxw/Untitled?node-id=1%3A2
